@@ -20,10 +20,20 @@
             }
         }
     &__phone {
+        display: block;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 18px;
         color: #FFFFFF;
+        &:hover {
+            color: #ffff;
+        }
+    }
+    &__contacts
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
