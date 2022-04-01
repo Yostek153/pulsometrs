@@ -1,0 +1,143 @@
+
+
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px;
+    }
+    .promo {
+        &__wrapper {
+            padding: 0 20px 0 0;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .advantage {
+        min-height: auto;
+    }
+    .title_left {
+        font-size: 25px;
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 80px auto;
+    }
+    
+
+    
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 12px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    .button {
+        width: 112px;
+        font-size: 10px;
+
+    }
+    }
+    .advantage {
+        margin-bottom: 10px;
+        &__name {
+            font-size: 14px;
+        }
+        &__text {
+            padding: 0 10px 0 10px;
+            font-size: 12px;
+            a {
+                font-size: 12px; 
+            }
+        }
+    }
+    .promo {
+        background: url(../img/bg.jpg) no-repeat;
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .promo {
+        background-size: 1280px 433px;
+        min-height: 433px;
+        padding-bottom: 21px;
+        &__wrapper {
+            margin-top: 40px;
+            }
+        &__icons {
+            margin-top: 25px;
+            width: auto;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 16px;
+            margin-top: 0px;
+        }      
+        &__link {
+            margin-top: 13px;
+            font-weight: 300;
+            font-size: 11px;
+        }
+    }
+    .advantage {
+        &__title {
+            margin-top: 30px;
+            font-size: 25px;
+            }
+        &__wrapp {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__name {
+            margin-top: 20px;
+            }
+        &__benefits {
+            padding: 20px
+            }
+        }
+        
+    .button_main {
+        margin-top: 15px;
+        width: 200px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .title_left {
+        font-size: 20px;
+        text-align: center;
+    }
+    .consultation {
+        padding-top: 50px;
+        &__descr {
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+}
